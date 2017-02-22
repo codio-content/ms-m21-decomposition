@@ -1,0 +1,119 @@
+[
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2613037505",
+  "source": {
+   "name": "q1",
+   "showName": false,
+   "instructions": "",
+   "points": "2",
+   "showValues": false,
+   "text": "In Computer Science, <<<decomposition>>> is breaking a complex problem into smaller parts that are easier to program or solve.\n<<<Functions>>> in Python are basically a decomposed step of a problem",
+   "tokens": {
+    "blank": [
+     "decomposition",
+     "Functions"
+    ],
+    "text": [
+     "In Computer Science, ",
+     0,
+     " is breaking a complex problem into smaller parts that are easier to program or solve.\n",
+     0,
+     " in Python are basically a decomposed step of a problem"
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-362746430",
+  "source": {
+   "name": "q2",
+   "showName": false,
+   "instructions": "What does range(10,20,5) mean? (Consider if you used it in a For Loop)",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "e0469a59-cdc2-5c8a-bbfc-3a164a78e896",
+     "correct": false,
+     "answer": "start at 20 go to 10 and step by 5"
+    },
+    {
+     "_id": "c692da35-f79d-4ebc-c347-77d8ddf6fc66",
+     "correct": false,
+     "answer": "start at 5 go to 10 and step by 20"
+    },
+    {
+     "_id": "61d27065-72e0-1812-1281-62acd7babfcb",
+     "correct": false,
+     "answer": "start at 5 go to 20 and step by 10"
+    },
+    {
+     "_id": "13affc4f-5b50-1020-d3c8-570125977f68",
+     "correct": true,
+     "answer": "start at 10 go to 20 and step by 5"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4294371716",
+  "source": {
+   "name": "q3",
+   "showName": false,
+   "instructions": "I want to round the variable cash to 2 decimal places. Which is correct?\n",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "a2d3e47a-8c73-f2e1-38f5-81f7334e9de0",
+     "correct": true,
+     "answer": "round(cash,2)"
+    },
+    {
+     "_id": "b7c6562f-ed93-94dd-495e-92b54aa31fdd",
+     "correct": false,
+     "answer": "round(2,cash)"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4127964407",
+  "source": {
+   "name": "q4",
+   "showName": false,
+   "instructions": "I want to figure out 7 cubed. Which is correct?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "93355bcf-bb86-0e6d-b459-54f449ab37f4",
+     "correct": false,
+     "answer": "power(3,27)"
+    },
+    {
+     "_id": "7d61c88d-43cb-b5b3-f2b3-89efbff625a4",
+     "correct": false,
+     "answer": "cube(7)"
+    },
+    {
+     "_id": "76d446e0-1868-1f7e-c998-98737a4ac98c",
+     "correct": true,
+     "answer": "pow(7,3)"
+    },
+    {
+     "_id": "dfc9d47c-5c4e-8130-9d19-e85d2bba39bf",
+     "correct": false,
+     "answer": "(7,cube)"
+    }
+   ]
+  }
+ }
+]
